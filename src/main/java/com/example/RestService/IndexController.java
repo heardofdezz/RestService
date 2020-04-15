@@ -12,7 +12,7 @@ public class IndexController {
 
     @RequestMapping(method = RequestMethod.GET, path = "/")
     // First Method
-    public String Index() {
+    public String Home() {
         return "Welcome to the Index page of our API," +
                 " you can configure this page to return any value you want, " +
                 "it can be a sort of Readme file containing all of the request of your API or " +
